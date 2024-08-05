@@ -8,6 +8,8 @@ age=$2
 
 echo "Hello $name. You are $age years old."
 
+echo "Environment variable (MY_VARIABLE): $MY_VARIABLE"
+
 export MY_VARIABLE="Hello World!"
 
 echo "Environment variable (MY_VARIABLE): $MY_VARIABLE"
